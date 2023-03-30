@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/greed">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Titulo"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"/>
+
+
+    <ImageView
+        android:layout_width="272dp"
+        android:layout_height="242dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mora" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:height="50sp"
+        android:layout_marginTop="100sp"
+        android:text="@string/siguiente" />
+
+
+</LinearLayout>
